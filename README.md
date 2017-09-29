@@ -3,11 +3,12 @@
 ## What Are Fixed Point Numbers?
 
 Normally computers operate on what are called 'integers'.
-Integers are numbers that do not have a 'radix point' in them (often called a 'decimal point' in day-to-day maths).
+Integers are numbers that do not have a fractional component in them.
 For example 0, 1, 42, 128, 10000 are all integers
 
-Numbers that do have a radix point are called 'real' numbers.
-For example 0.5, 1.75, 42.42, 128.367 and 10000.00001 are all real numbers.
+Numbers that do have a fractional component are called 'rational' numbers.
+They are often represented either as fractions or as numbers with a 'radix point'in them (often called a 'decimal point' in day-to-day maths)
+For example 0.5, 1.75, 42.42, 128.367 and 10000.00001 are all rational numbers.
 
 Normally computers represent these in what is called a 'floating point' format.
 The name 'floating point' refers to the fact that the radix point can change position within the number, i.e. the radix point can 'float' around.
@@ -61,3 +62,8 @@ If the fractional part had the integer value of `64`, then its effective value c
 As a more in depth example, consider a Q8.8 value where the integer part is `5` and the fractional part has an integer value of `37`. This can be thought of as a mixed fraction `5 37/256`.
 Using a calculator to divide `37` by `256` you will find that `37/256 = 0.14453125`, which means that the number being represented is `5.14453125`.
 
+## Further Reading
+
+- Wikipedia's article about [Radix Points](https://en.wikipedia.org/wiki/Radix_point)
+- Wikipedia's article about [Integers](https://en.wikipedia.org/wiki/Integer)
+- Wikipedia's article about [Rational Numbers](https://en.wikipedia.org/wiki/Rational_number)
